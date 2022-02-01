@@ -22,5 +22,56 @@
     "category_id": "2",
     "product_name": "Acrylic Hairpin",
     "product_img": "COVER.PNG"
+  },
+  {
+    "product_id": "5",
+    "category_id": "2",
+    "product_name": "Moon Hair Clip",
+    "product_img": "COVER.PNG"
+  },
+  {
+    "product_id": "6",
+    "category_id": "2",
+    "product_name": "Rhinestone Hairpin",
+    "product_img": "COVER.PNG"
+  },
+  {
+    "product_id": "7",
+    "category_id": "3",
+    "product_name": "Birdcage Hat",
+    "product_img": "BLUE RM10.PNG",
+    "product_img_extra": "BLACK RM20.PNG, BLUE RM10.PNG, GREY RM20.PNG, RED RM20.PNG, WHITE RM20.PNG"
+  },
+  {
+    "product_id": "8",
+    "category_id": "3",
+    "product_name": "Hat Jockey Retro",
+    "product_img": "BLACK RM15.PNG",
+    "product_img_extra": "BLACK RM15.PNG, RED RM15.PNG, WHITE RM15.PNG"
+  },
+  {
+    "product_id": "9",
+    "category_id": "3",
+    "product_name": "Vintage Berets",
+    "product_img": "BLACK RM25.PNG",
+    "product_img_extra": "BLACK RM25.PNG, KHAKI RM25.PNG, RED RM25.PNG"
+  },
+  {
+    "product_id": "10",
+    "category_id": "4",
+    "product_name": "Knotted Headband",
+    "product_img": "COVER.PNG"
+  },
+  {
+    "product_id": "11",
+    "category_id": "4",
+    "product_name": "Lace Headband",
+    "product_img": "COVER.PNG"
+  },
+  {
+    "product_id": "12",
+    "category_id": "4",
+    "product_name": "Stripped Headband",
+    "product_img": "COVER.PNG"
   }
 ]
