@@ -1,5 +1,46 @@
 [
   {
-    "product_id": "1"
+    "product_id": "1",
+    "product_img_extra": "HITAM RM2.PNG"
+  },
+  {
+    "product_id": "1",
+    "product_img_extra": "RED RM2.PNG"
+  },
+  {
+    "product_id": "1",
+    "product_img_extra": "WHITE RM2.PNG"
+  },
+  {
+    "product_id": "2",
+    "product_img_extra": "BLACK RM3.50.PNG"
+  },
+  {
+    "product_id": "2",
+    "product_img_extra": "CREAM RM3.50.PNG"
+  },
+  {
+    "product_id": "2",
+    "product_img_extra": "LIGHT GREEN RM3.50.PNG"
+  },
+  {
+    "product_id": "2",
+    "product_img_extra": "LIGHT PINK RM3.50.PNG"
+  },
+  {
+    "product_id": "3",
+    "product_img_extra": "BLUE RM3.PNG"
+  },
+  {
+    "product_id": "3",
+    "product_img_extra": "CREAM RM3.PNG"
+  },
+  {
+    "product_id": "3",
+    "product_img_extra": "DARK COFFEE RM3.PNG"
+  },
+  {
+    "product_id": "3",
+    "product_img_extra": "DUSTY PINK RM3.PNG"
   }
 ]

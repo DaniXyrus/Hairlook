@@ -2,16 +2,25 @@
   {
     "product_id": "1",
     "category_id": "1",
-    "product_name": "Fresh Flower Ribbon"
+    "product_name": "Fresh Flower Ribbon",
+    "product_img": "COVER.PNG"
   },
   {
     "product_id": "2",
     "category_id": "1",
-    "product_name": "Printer Pearl"
+    "product_name": "Printer Pearl",
+    "product_img": "COVER.PNG"
   },
   {
     "product_id": "3",
     "category_id": "1",
-    "product_name": "Sweet Retro"
+    "product_name": "Sweet Retro",
+    "product_img": "COVER.PNG"
+  },
+  {
+    "product_id": "4",
+    "category_id": "2",
+    "product_name": "Acrylic Hairpin",
+    "product_img": "COVER.PNG"
   }
 ]
