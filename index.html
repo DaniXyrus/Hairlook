@@ -126,13 +126,12 @@
           3: "Hat & Cap",
           4: "Headband"
         }
-      ]
+      ];
 
       $(document).ready(function(){
 
         // display category cards
         $.getJSON("json/categories.json", function(data){
-          console.log(data);
           $.each(data, function (key, val) {
 
             var htmlColumn = "<div class='col-3'><a href='#'><img src='";
@@ -153,11 +152,10 @@
         
         // display product cards
         $.getJSON("json/products.json", function(data){
-          console.log(data);
           $.each(data, function (key, val) {
             category_id = val.category_id;
-            var smallContainerDiv = "<div class='col-4'><img src='images/"+ categories_name[0][category_id].toUpperCase() +"/"+ val.product_name.toUpperCase() +"/"+ val.product_img.toUpperCase() +"'><h3>"+ val.product_name.toUpperCase() +"</h3><h3>RM50.50</h3></div>";
-            $(".category-section-" + category_id + " .row").append(smallContainerDiv);
+            var card = "<div class='col-4'><img src='images/"+ categories_name[0][category_id].toUpperCase() +"/"+ val.product_name.toUpperCase() +"/"+ val.product_img.toUpperCase() +"'><h3>"+ val.product_name +"</h3><h3>RM50.50</h3></div>";
+            $(".category-section-" + category_id + " .row").append(card);
             
           });
         }).fail(function(){
