@@ -154,7 +154,7 @@
         $.getJSON("json/products.json", function(data){
           $.each(data, function (key, val) {
             category_id = val.category_id;
-            var card = "<div class='col-4'><img src='images/"+ categories_name[0][category_id].toUpperCase() +"/"+ val.product_name.toUpperCase() +"/"+ val.product_img.toUpperCase() +"'><h3>"+ val.product_name +"</h3><h3>RM50.50</h3></div>";
+            var card = "<div class='col-4'><img src='images/"+ categories_name[0][category_id].toUpperCase() +"/"+ val.product_name.toUpperCase() +"/"+ val.product_img.toUpperCase() +"'><h3>"+ val.product_name +"</h3><h3>RM "+ val.product_price.toFixed(2) +"</h3></div>";
             $(".category-section-" + category_id + " .row").append(card);
             
           });
