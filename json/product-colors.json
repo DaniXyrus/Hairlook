@@ -16,211 +16,212 @@
   },
   {
     "product_id": "2",
-    "color": "BLACK RM3.50.PNG"
-    "hex_color": ""
+    "color": "BLACK RM3.50.PNG",
+    "hex_color": "#000000"
   },
   {
     "product_id": "2",
-    "color": "CREAM RM3.50.PNG"
-    "hex_color": ""
+    "color": "CREAM RM3.50.PNG",
+    "hex_color": "#FFFDD0"
   },
   {
     "product_id": "2",
-    "color": "LIGHT GREEN RM3.50.PNG"
-    "hex_color": ""
+    "color": "LIGHT GREEN RM3.50.PNG",
+    "hex_color": "#90EE90"
   },
   {
     "product_id": "2",
-    "color": "LIGHT PINK RM3.50.PNG"
-    "hex_color": ""
+    "color": "LIGHT PINK RM3.50.PNG",
+    "hex_color": "#FFB6C1"
   },
   {
     "product_id": "3",
-    "color": "BLUE RM3.PNG"
-    "hex_color": ""
+    "color": "BLUE RM3.PNG",
+    "hex_color": "#0000FF"
   },
   {
     "product_id": "3",
-    "color": "CREAM RM3.PNG"
-    "hex_color": ""
+    "color": "CREAM RM3.PNG",
+    "hex_color": "#FFFDD0"
   },
   {
     "product_id": "3",
-    "color": "DARK COFFEE RM3.PNG"
-    "hex_color": ""
+    "color": "DARK COFFEE RM3.PNG",
+    "hex_color": "#562E19"
   },
   {
     "product_id": "3",
-    "color": "DUSTY PINK RM3.PNG"
-    "hex_color": ""
+    "color": "DUSTY PINK RM3.PNG",
+    "hex_color": "#E1AD9D"
   },
   {
     "product_id": "4",
-    "color": "BEIGE CIRCLE RM2.50.PNG"
-    "hex_color": ""
+    "color": "BEIGE CIRCLE RM2.50.PNG",
+    "hex_color": "#F5F5DC"
   },
   {
     "product_id": "4",
-    "color": "BLUE CIRCLE RM2.50.PNG"
-    "hex_color": ""
+    "color": "BLUE CIRCLE RM2.50.PNG",
+    "hex_color": "#0000FF"
   },
   {
     "product_id": "4",
-    "color": "GRAY STAR RM2.50.PNG"
-    "hex_color": ""
+    "color": "GRAY STAR RM2.50.PNG",
+    "hex_color": "#808080"
   },
   {
     "product_id": "4",
-    "color": "LIGHT BLUE STAR RM2.50.PNG"
-    "hex_color": ""
+    "color": "LIGHT BLUE STAR RM2.50.PNG",
+    "hex_color": "#ADD8E6"
   },
   {
     "product_id": "4",
-    "color": "PINK STAR RM2.50.PNG"
-    "hex_color": ""
+    "color": "PINK STAR RM2.50.PNG",
+    "hex_color": "#FFC0CB"
   },
   {
     "product_id": "5",
-    "color": "DARK PINK RM2.PNG"
-    "hex_color": ""
+    "color": "DARK PINK RM2.PNG",
+    "hex_color": "#AA336A"
   },
   {
     "product_id": "5",
-    "color": "GREEN RM2.PNG"
-    "hex_color": ""
+    "color": "GREEN RM2.PNG",
+    "hex_color": "#008000"
   },
   {
     "product_id": "5",
-    "color": "PINK RM2.PNG"
-    "hex_color": ""
+    "color": "PINK RM2.PNG",
+    "hex_color": "#FFC0CB"
   },
   {
     "product_id": "5",
-    "color": "WHITE RM2.PNG"
-    "hex_color": ""
+    "color": "WHITE RM2.PNG",
+    "hex_color": "#FFFFFF"
   },
   {
     "product_id": "6",
-    "color": "GREY RM2.PNG"
-    "hex_color": ""
+    "color": "GREY RM2.PNG",
+    "hex_color": "#808080"
   },
   {
     "product_id": "6",
-    "color": "ORANGE RM2.PNG"
-    "hex_color": ""
+    "color": "ORANGE RM2.PNG",
+    "hex_color": "#FFA500"
   },
   {
     "product_id": "6",
-    "color": "PINK RM2.PNG"
-    "hex_color": ""
+    "color": "PINK RM2.PNG",
+    "hex_color": "#FFC0CB"
   },
   {
     "product_id": "6",
-    "color": "WHITE RM2.PNG"
-    "hex_color": ""
+    "color": "WHITE RM2.PNG",
+    "hex_color": "#FFFFFF"
   },
   {
     "product_id": "7",
-    "color": "BLACK RM20.PNG"
-    "hex_color": ""
+    "color": "BLACK RM20.PNG",
+    "hex_color": "#000000"
   },
   {
     "product_id": "7",
-    "color": "BLUE RM20.PNG"
-    "hex_color": ""
+    "color": "BLUE RM20.PNG",
+    "hex_color": "#0000FF"
   },
   {
     "product_id": "7",
-    "color": "GREY RM20.PNG"
-    "hex_color": ""
+    "color": "GREY RM20.PNG",
+    "hex_color": "#808080"
   },
   {
     "product_id": "7",
-    "color": "RED RM20.PNG"
-    "hex_color": ""
+    "color": "RED RM20.PNG",
+    "hex_color": "#FF0000"
   },
   {
     "product_id": "7",
-    "color": "WHITE RM20.PNG"
-    "hex_color": ""
+    "color": "WHITE RM20.PNG",
+    "hex_color": "#FFFFFF"
   },
   {
     "product_id": "8",
-    "color": "BLACK RM15.PNG"
-    "hex_color": ""
+    "color": "BLACK RM15.PNG",
+    "hex_color": "#000000"
   },
   {
     "product_id": "8",
-    "color": "RED RM15.PNG"
-    "hex_color": ""
+    "color": "RED RM15.PNG",
+    "hex_color": "#FF0000"
   },
   {
     "product_id": "8",
-    "color": "WHITE RM15.PNG"
-    "hex_color": ""
+    "color": "WHITE RM15.PNG",
+    "hex_color": "#FFFFFF"
   },
   {
     "product_id": "9",
-    "color": "BLACK RM25.PNG"
-    "hex_color": ""
+    "color": "BLACK RM25.PNG",
+    "hex_color": "#000000"
   },
   {
     "product_id": "9",
-    "color": "KHAKI RM25.PNG"
-    "hex_color": ""
+    "color": "KHAKI RM25.PNG",
+    "hex_color": "#F0E68C"
   },
   {
     "product_id": "9",
-    "color": "RED RM25.PNG"
-    "hex_color": ""
+    "color": "RED RM25.PNG",
+    "hex_color": "#FF0000"
   },
   {
     "product_id": "10",
-    "color": "AMY GREEN RM5.PNG"
-    "hex_color": ""
+    "color": "AMY GREEN RM5.PNG",
+    "hex_color": "#4b5320"
   },
   {
     "product_id": "10",
-    "color": "BROWN RM5.PNG"
-    "hex_color": ""
+    "color": "BROWN RM5.PNG",
+    "hex_color": "#964B00"
   },
   {
     "product_id": "10",
-    "color": "YELLOW RM5.PNG"
-    "hex_color": ""
+    "color": "YELLOW RM5.PNG",
+    "hex_color": "#FFFF00"
   },
   {
     "product_id": "11",
-    "color": "BLACK RM5.PNG"
-    "hex_color": ""
+    "color": "BLACK RM5.PNG",
+    "hex_color": "#000000"
   },
   {
     "product_id": "11",
-    "color": "COFFEE RM5.PNG"
-    "hex_color": ""
+    "color": "COFFEE RM5.PNG",
+    "hex_color": "#6F4E37"
   },
   {
     "product_id": "11",
-    "color": "PURPLE GRAY RM5.PNG"
-    "hex_color": ""
+    "color": "PURPLE GRAY RM5.PNG",
+    "hex_color": "#826d8c"
   },
   {
     "product_id": "12",
-    "color": "BLUE RM6.PNG"
-    "hex_color": ""
+    "color": "BLUE RM6.PNG",
+    "hex_color": "#0000FF"
   },
   {
     "product_id": "12",
-    "color": "PINK RM6.PNG"
-    "hex_color": ""
+    "color": "PINK RM6.PNG",
+    "hex_color": "#FFC0CB"
   },
   {
     "product_id": "12",
-    "color": "WHITE RM6.PNG"
-    "hex_color": ""
+    "color": "WHITE RM6.PNG",
+    "hex_color": "#FFFFFF"
   },
   {
     "product_id": "12",
-    "color": "YELLOW RM6.PNG"
+    "color": "YELLOW RM6.PNG",
+    "hex_color": "#FFFF00"
   }
 ]
