@@ -536,6 +536,11 @@ ul{
 .contact .content{
 	max-width: 800px;
 	text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .content .content-text{
+	margin-top: 200px;
 }
 .contact .content h2{
 	font-size:40px;
