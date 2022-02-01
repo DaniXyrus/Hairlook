@@ -10,66 +10,77 @@
     "product_id": "2",
     "category_id": "1",
     "product_name": "Printer Pearl",
-    "product_img": "COVER.PNG"
+    "product_img": "COVER.PNG",
+    "product_price": 3.50
   },
   {
     "product_id": "3",
     "category_id": "1",
     "product_name": "Sweet Retro",
-    "product_img": "COVER.PNG"
+    "product_img": "COVER.PNG",
+    "product_price": 3.00
   },
   {
     "product_id": "4",
     "category_id": "2",
     "product_name": "Acrylic Hairpin",
-    "product_img": "COVER.PNG"
+    "product_img": "COVER.PNG",
+    "product_price": 2.50
   },
   {
     "product_id": "5",
     "category_id": "2",
     "product_name": "Moon Hair Clip",
-    "product_img": "COVER.PNG"
+    "product_img": "COVER.PNG",
+    "product_price": 2.00
   },
   {
     "product_id": "6",
     "category_id": "2",
     "product_name": "Rhinestone Hairpin",
-    "product_img": "COVER.PNG"
+    "product_img": "COVER.PNG",
+    "product_price": 2.00
   },
   {
     "product_id": "7",
     "category_id": "3",
     "product_name": "Birdcage Hat",
-    "product_img": "BLUE RM20.PNG"
+    "product_img": "BLUE RM20.PNG",
+    "product_price": 20.00
   },
   {
     "product_id": "8",
     "category_id": "3",
     "product_name": "Hat Jockey Retro",
-    "product_img": "BLACK RM15.PNG"
+    "product_img": "BLACK RM15.PNG",
+    "product_price": 15.00
   },
   {
     "product_id": "9",
     "category_id": "3",
     "product_name": "Vintage Berets",
-    "product_img": "KHAKI RM25.PNG"
+    "product_img": "KHAKI RM25.PNG",
+    "product_price": 25.00
   },
   {
     "product_id": "10",
     "category_id": "4",
     "product_name": "Knotted Headband",
-    "product_img": "COVER.PNG"
+    "product_img": "COVER.PNG",
+    "product_price": 5.00
   },
   {
     "product_id": "11",
     "category_id": "4",
     "product_name": "Lace Headband",
-    "product_img": "COVER.PNG"
+    "product_img": "COVER.PNG",
+    "product_price": 5.00
   },
   {
     "product_id": "12",
     "category_id": "4",
     "product_name": "Stripped Headband",
-    "product_img": "COVER.PNG"
+    "product_img": "COVER.PNG",
+    "product_price": 6.00
   }
 ]
