@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF=8">
+	<title>All Products - GogekStore</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700&display=swap"rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	
+<div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<img src="images/logo1.png">
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="presented-by.html">Presented By</a></li>
+			</ul>
+		</nav>
+		<img src="images/cart.png" width="30px" height="30px">
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> 
+	</div>	
+</div>
+
+<div  class="wrapper">
+	<div class="menu">
+		<div class="small-container">	
+			<div class="row row-2">
+			<h2>Products</h2>
+			<select id="detail">
+				<option value="categories">Categories</option>
+				<option value="jeans">Jeans</option>
+				<option value="shirts">Shirts</option>
+				<option value="dresses">Dresses</option>
+				<option value="shoes">Shoes</option>
+			</select>
+			</div>
+		</div>		
+	</div>	
+</div>
+
+
+<!----------categories-------->
+
+<div class="content">
+	<div id="categories" class="data">
+		<div class="small-container">
+		<div class="row">
+			<div class="col-4">
+				<img src="images/skinny-jeans-1.jpeg">
+				<h3>Dark Blue Skinny Jeans</h3>
+				<h3>RM50.50</h3>
+			</div>
+			<div class="col-4">
+				<img src="images/skinny-jeans-2.jpg">
+				<h3>Black Skinny Jeans</h3>
+				<h3>RM55.50</h3>
+			</div>
+			<div class="col-4">
+				<img src="images/skinny-jeans-3.jpg">
+				<h3>Sky Blue Skinny Jeans</h3>				
+				<h3>RM50.50</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-5">
+				<img src="images/straight-jeans-1.jpg">
+				<h3>Sky Blue Straight Cut Jeans</h3>
+				<h3>RM55.50</h3>
+			</div>
+			<div class="col-5"> 
+				<img src="images/straight-jeans-2.jpg">
+				<h3>Black Straight Cut Jeans</h3>
+				<h3>RM50.50</h3>
+			</div>
+			<div class="col-5">
+				<img src="images/straight-jeans-3.jpg">
+				<h3>Blue Straight Cut Jeans</h3>			
+				<h3>RM50.50</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="small-container">
+		<div class="row">
+			<div class="col-6">
+				<img src="images/short-sleeve-1.jpeg">
+				<h3>Black Short Sleeve</h3>
+				<h3>RM39.99</h3>
+			</div>
+			<div class="col-6">
+				<img src="images/short-sleeve-2.jpeg">
+				<h3>White Short Sleeve</h3>
+				<h3>RM39.99</h3>
+			</div>
+			<div class="col-6">
+				<img src="images/short-sleeve-3.jpeg">
+				<h3>Striped Short Sleeve</h3>
+				<h3>RM39.99</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-7">
+				<img src="images/long-sleeve-1.jpeg">
+				<h3>Striped Long Sleeve</h3>
+				<h3>RM49.99</h3>
+			</div>
+			<div class="col-7"> 
+				<img src="images/long-sleeve-2.jpeg">
+				<h3>Green Long Sleeve</h3>
+				<h3>RM49.99</h3>
+			</div>
+			<div class="col-7">
+				<img src="images/long-sleeve-3.jpeg">
+				<h3>Polkadot Long Sleeve</h3>
+				<h3>RM49.99</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="small-container">
+		<div class="row">
+			<div class="col-8">
+				<img src="images/plain-dress-1.jpeg">
+				<h3>Blue Plain Dress</h3>
+				<h3>RM79.99</h3>
+			</div>
+			<div class="col-8">
+				<img src="images/plain-dress-2.jpeg">
+				<h3>Black Plain Dress</h3>
+				<h3>RM79.99</h3>
+			</div>
+			<div class="col-8">
+				<img src="images/plain-dress-3.jpeg">
+				<h3>White Plain Dress</h3>
+				<h3>RM79.99</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-9">
+				<img src="images/lace-dress-1.jpg">
+				<h3>Grey Lace Dress</h3>
+				<h3>RM79.99</h3>
+			</div>
+			<div class="col-9"> 
+				<img src="images/lace-dress-2.jpg">
+				<h3>Black Lace Dress</h3>
+				<h3>RM79.99</h3>
+			</div>
+			<div class="col-9">
+				<img src="images/lace-dress-3.jpg">
+				<h3>Pink Lace Dress</h3>
+				<h3>RM79.99</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="small-container">
+		<div class="row">
+			<div class="col-10">
+				<img src="images/running-shoes1.jpg">
+				<h3>Grey Running Shoes</h3>
+				<h3>RM89.99</h3>
+			</div>
+			<div class="col-10">
+				<img src="images/running-shoes2.jpg">
+				<h3>Pink Running Shoes</h3>
+				<h3>RM89.99</h3>
+			</div>
+			<div class="col-10">
+				<img src="images/running-shoes3.jpg">
+				<h3>White Running Shoes</h3>
+				<h3>RM89.99</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-11">
+				<img src="images/sneakers-shoes-1.jpeg">
+				<h3>Black Sneakers</h3>
+				<h3>RM99.99</h3>
+			</div>
+			<div class="col-11"> 
+				<img src="images/sneakers-shoes-2.jpeg">
+				<h3>Red Sneakers</h3>
+				<h3>RM99.99</h3>
+			</div>
+			<div class="col-11">
+				<img src="images/sneakers-shoes-3.jpeg">
+				<h3>Green Sneakers</h3>
+				<h3>RM99.99</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!----------jeans details-------->
+
+	<div id="jeans" class="data">
+		<div class="small-container">
+		<h3 class="subtitle">Skinny Jeans</h3>
+		<br>
+		<div class="row">
+			<div class="col-21">
+				<img src="images/skinny-jeans-1.jpeg">
+			</div>
+			<div class="col-21">
+				<p>Home / Jeans</p>
+				<h1>Dark Blue Skinny Jeans</h1>
+				<h3>RM50.50</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Sky Blue, Navy Blue, Dark Blue, Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>26,27,28,29,30,31,32,32,33</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-22">
+				<img src="images/skinny-jeans-2.jpg">
+			</div>
+			<div class="col-22">
+				<p>Home / Jeans</p>
+				<h1>Black Skinny Jeans</h1>
+				<h3>RM55.50</h3>
+				<h4><b></b>Available Colour :</h4>
+				<h4>Sky Blue, Navy Blue, Dark Blue, Black</h4>
+				<h4><b></b>Size :</h4>
+				<h4>26,27,28,29,30,31,32,32,33</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-23">
+				<img src="images/skinny-jeans-3.jpg">
+			</div>
+			<div class="col-23">
+				<p>Home / Jeans</p>
+				<h1>Sky Blue Skinny Jeans</h1>
+				<h3>RM50.50</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Sky Blue, Navy Blue, Dark Blue, Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>26,27,28,29,30,31,32,32,33</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>	
+
+		<h3 class="subtitle">Straight Cut Jeans</h3>
+		<br>
+		<div class="row">
+			<div class="col-24">
+				<img src="images/straight-jeans-1.jpg">
+			</div>
+			<div class="col-24">
+				<p>Home / Jeans</p>
+				<h1>Sky Blue Straight Cut Jeans</h1>
+				<h3>RM55.50</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Sky Blue, Navy Blue, Dark Blue, Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>26,27,28,29,30,31,32,32,33</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>			
+
+		<div class="row">
+			<div class="col-25">
+				<img src="images/straight-jeans-2.jpg">
+			</div>
+			<div class="col-25">
+				<p>Home / Jeans</p>
+				<h1>Black Straight Cut Jeans</h1>
+				<h3>RM50.50</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Sky Blue, Navy Blue, Dark Blue, Black</h4>
+				<h4><b>Size :</b>h4>
+				<h4>26,27,28,29,30,31,32,32,33</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-26">
+				<img src="images/straight-jeans-3.jpg">
+			</div>
+			<div class="col-26">
+				<p>Home / Jeans</p>
+				<h1>Blue Straight Cut Jeans</h1>
+				<h3>RM50.50</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Sky Blue, Navy Blue, Dark Blue, Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>26,27,28,29,30,31,32,32,33</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+		</div>
+	</div>
+
+<!----------shirts details-------->
+
+	<div id="shirts" class="data">
+		<div class="small-container">
+		<h3 class="subtitle">Short Sleeve</h3>
+		<br>
+		<div class="row">
+			<div class="col-27">
+				<img src="images/short-sleeve-1.jpeg">
+			</div>
+			<div class="col-27">
+				<p>Home / Shirts</p>
+				<h1>Black Short Sleeve</h1>
+				<h3>RM39.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>White, Blue, Red, Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL, XXL, XXXL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+			<div class="row">
+			<div class="col-27">
+				<img src="images/short-sleeve-2.jpeg">
+			</div>
+			<div class="col-27">
+				<p>Home / Shirts</p>
+				<h1>White Short Sleeve</h1>
+				<h3>RM39.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>White, Blue, Red, Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL, XXL, XXXL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+			<div class="row">
+			<div class="col-27">
+				<img src="images/short-sleeve-3.jpeg">
+			</div>
+			<div class="col-27">
+				<p>Home / Shirts</p>
+				<h1>Striped Short Sleeve</h1>
+				<h3>RM39.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>White, Blue, Red, Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL, XXL, XXXL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<h3 class="subtitle">Long Sleeve</h3>
+		<br>
+		<div class="row">
+			<div class="col-28">
+				<img src="images/long-sleeve-1.jpeg">
+			</div>
+			<div class="col-28">
+				<p>Home / Shirts</p>
+				<h1>Striped Long Sleeve</h1>
+				<h3>RM49.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>White, Blue, Red, Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL, XXL, XXXL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-28">
+				<img src="images/long-sleeve-2.jpeg">
+			</div>
+			<div class="col-28">
+				<p>Home / Shirts</p>
+				<h1>Green Long Sleeve</h1>
+				<h3>RM49.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>White, Blue, Red, Black, Green</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL, XXL, XXXL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-28">
+				<img src="images/long-sleeve-3.jpeg">
+			</div>
+			<div class="col-28">
+				<p>Home / Shirts</p>
+				<h1>Polkadot Long Sleeve</h1>
+				<h3>RM49.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>White, Blue, Red, Black, Green</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL, XXL, XXXL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+<!----------dresses details-------->
+
+	<div id="dresses" class="data">
+		<div class="small-container">
+		<h3 class="subtitle">Plain Dress</h3>
+		<br>
+		<div class="row">
+			<div class="col-29">
+				<img src="images/plain-dress-1.jpeg">
+			</div>
+			<div class="col-29">
+				<p>Home / Dress</p>
+				<h1>Blue Plain Dress</h1>
+				<h3>RM99.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Light Blue, Dark Blue</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+			<div class="row">
+			<div class="col-29">
+				<img src="images/plain-dress-2.jpeg">
+			</div>
+			<div class="col-29">
+				<p>Home / Dress</p>
+				<h1>Black Plain Dress</h1>
+				<h3>RM99.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Black Olive, Charcoal</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+			<div class="row">
+			<div class="col-29">
+				<img src="images/plain-dress-3.jpeg">
+			</div>
+			<div class="col-29">
+				<p>Home / Dress</p>
+				<h1>White Plain Dress</h1>
+				<h3>RM99.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Fresh Snow, Ricotta</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<h3 class="subtitle">Lace Dress</h3>
+		<br>
+		<div class="row">
+			<div class="col-30">
+				<img src="images/lace-dress-1.jpg">
+			</div>
+			<div class="col-30">
+				<p>Home / Dress</p>
+				<h1>Grey Lace Dress</h1>
+				<h3>RM109.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Dim gray, Dark Grey</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+
+			<div class="row">
+			<div class="col-30">
+				<img src="images/lace-dress-2.jpg">
+			</div>
+			<div class="col-30">
+				<p>Home / Dress</p>
+				<h1>Black Lace Dress</h1>
+				<h3>RM109.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Raisin Black, Eerie Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+			<div class="row">
+			<div class="col-30">
+				<img src="images/lace-dress-3.jpg">
+			</div>
+			<div class="col-30">
+				<p>Home / Dress</p>
+				<h1>Cream Lace Dress</h1>
+				<h3>RM109.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Eggshell, Walnut Cream</h4>
+				<h4><b>Size :</b></h4>
+				<h4>S, M, L, XL</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+	</div>		
+</div>
+
+<!----------shoes details-------->
+	<div id="shoes" class="data">
+		<div class="small-container">
+		<h3 class="subtitle">Running Shoes</h3>
+		<br>
+		<div class="row">
+			<div class="col-31">
+				<img src="images/running-shoes1.jpg">
+			</div>
+			<div class="col-31">
+				<p>Home / Shoes</p>
+				<h1>Grey Running Shoes</h1>
+				<h3>RM89.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Dark Grey, Light Grey</h4>
+				<h4><b>Size :</b></h4>
+				<h4>3,4,5,6,7,8,9,10</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+			<div class="row">
+			<div class="col-31">
+				<img src="images/running-shoes2.jpg">
+			</div>
+			<div class="col-31">
+				<p>Home / Shoes</p>
+				<h1>Pink Running Shoes</h1>
+				<h3>RM89.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Pink</h4>
+				<h4><b>Size :</b></h4>
+				<h4>3,4,5,6,7,8,9</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+			<div class="row">
+			<div class="col-31">
+				<img src="images/running-shoes3.jpg">
+			</div>
+			<div class="col-31">
+				<p>Home / Shoes</p>
+				<h1>White Running Shoes</h1>
+				<h3>RM89.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>White</h4>
+				<h4><b>Size :</b></h4>
+				<h4>4,5,6,7,8,9,10</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<h3 class="subtitle">Sneakers</h3>
+		<br>
+		<div class="row">
+			<div class="col-32">
+				<img src="images/sneakers-shoes-1.jpeg">
+			</div>
+			<div class="col-32">
+				<p>Home / Shoes</p>
+				<h1>Black Sneakers</h1>
+				<h3>RM99.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Black</h4>
+				<h4><b>Size :</b></h4>
+				<h4>3,4,5,6,7,8,9</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-32">
+				<img src="images/sneakers-shoes-2.jpeg">
+			</div>
+			<div class="col-32">
+				<p>Home / Shoes</p>
+				<h1>Red Sneakers</h1>
+				<h3>RM99.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Red</h4>
+				<h4><b>Size :</b></h4>
+				<h4>2,3,4,5,6,7,8,9</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-32">
+				<img src="images/sneakers-shoes-3.jpeg">
+			</div>
+			<div class="col-32">
+				<p>Home / Shoes</p>
+				<h1>Green Sneakers</h1>
+				<h3>RM99.99</h3>
+				<h4><b>Available Colour :</b></h4>
+				<h4>Green</h4>
+				<h4><b>Size :</b></h4>
+				<h4>3,4,5,6,7,8,9</h4>
+				<a href="contact.html" class="btn">Contact Us</a>
+
+				<h4><b>Note:</b></h4>
+				<p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+</div>
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	
+	$(document).ready(function(){
+		$("#detail").on('change', function(){
+		$(".data").hide()
+		$("#" + $(this).val()).fadeIn(700);
+		}).change();
+	});
+</script>
+
+
+
+<!----------footer-------->
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and ios mobile phone.</p>
+					<div class="app-logo">
+						<img src="images/play-store.png">
+						<img src="images/app-store.png">
+					</div>				
+				</div>			
+
+				<div class="footer-col-2">
+					<img src="images/logo.png" width="100%" height="70px">
+					<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>				
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>Youtube</li>
+					</ul>
+				</div>	
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2021 - GOGEK STORE</p>
+		</div>
+	</div>	
+	<!----------js for toggle menu---------->
+		<script>
+			var MenuItems = document.getElementById("MenuItems");
+			
+			MenuItems.style.maxHeight = "0px";
+
+			function menutoggle(){
+				if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+			}
+		
+		</script>		
+
+</body>
+</html>
