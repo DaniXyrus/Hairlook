@@ -6,6 +6,11 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700&display=swap"rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
 </head>
 <body>
 
@@ -45,22 +50,7 @@
 	<div class="small-container">
 		<h1 align="center">Categories</h1>
 		<div class="row">
-			<div class="col-3">
-				<img src="images/category-1.jpeg" height="220px">
-				<h2 align="center">Jeans</h2>
-			</div>
-			<div class="col-3">
-				<img src="images/category-2.jpeg" height="220px">
-				<h2 align="center">Shirts</h2>
-			</div>
-			<div class="col-3">
-				<img src="images/category-3.jpeg" height="220px">
-				<h2 align="center">Dresses</h2>
-			</div>	
-			<div class="col-3">
-				<img src="images/category-4.jpeg" height="220px">
-				<h2 align="center">Shoes</h2>
-			</div>
+      <!-- For categories, refer javascript below -->
 		</div>
 	</div>
 </div>
@@ -281,6 +271,25 @@
 			}
 		
 		</script>		
+
+    <script>
+      $(document).ready(function(){
+
+        $.getJSON("json/categories.json", function(data){
+          $.each(data, function (key, val) {
+            var htmlColumn = "<div class='col-3'><img src='";
+            htmlColumn += "images/" + val.category_name.toUpperCase() + "/COVER.PNG" + "'";
+            htmlColumn += "height='220px'><h2 align='center'>";
+            htmlColumn += val.category_name;
+            htmlColumn += "</h2></div>";
+            $(".categories .row").append(htmlColumn);
+          });
+        }).fail(function(){
+          console.log("An error has occurred.");
+        });
+
+      });
+    </script>
 	</div>
 
 </body>
