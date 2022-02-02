@@ -141,7 +141,7 @@
         $.getJSON("json/categories.json", function(data){
           $.each(data, function (key, val) {
 
-            var htmlColumn = "<div class='col-3'><a href='#'><img src='";
+            var htmlColumn = "<div class='col-3'><a href='product.html'><img src='";
             htmlColumn += "images/"+ val.category_name.toUpperCase() +"/COVER.PNG" + "'";
             htmlColumn += "height='220px'><h2 align='center'>";
             htmlColumn += val.category_name;
