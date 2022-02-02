@@ -732,16 +732,16 @@ ul{
 
 @keyframes animate{
     0%,100%{
-        background: #e91e63;
+        background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/back.jpg) center/cover no-repeat fixed;
     }
     25%{
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/pro8.png) center/cover no-repeat fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/back\ \(1\).jpg) center/cover no-repeat fixed;
     }
     50%{
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/pro3.png) center/cover no-repeat fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/back\ \(2\).jpg) center/cover no-repeat fixed;
     }
     75%{
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/pro7.png) center/cover no-repeat fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/back\ \(3\).jpg) center/cover no-repeat fixed;
     }
 }
 
@@ -773,6 +773,7 @@ ul{
     font-family: 'Cutive Mono';
     margin: 0;
     font-size: 19px;
+	color: #fff;
     display: inline-block;
     position: relative;
 }
