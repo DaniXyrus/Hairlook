@@ -105,15 +105,23 @@
 
     // product json
     $.getJSON("json/products.json", function(data){
-      console.log(data);
       $.each(data, function (key, val) {
         category_id = val.category_id;
         var card = "<div class='col-4'><img src='images/"+ categories_name[0][category_id].toUpperCase() +"/"+ val.product_name.toUpperCase() +"/"+ val.product_img.toUpperCase() +"'><h3>"+ val.product_name +"</h3><h3>RM "+ val.product_price.toFixed(2) +"</h3></div>";
         $("#categories .row").append(card);
         
-        var card2 = "<div class='row'><div class='col-21'><img src='images/"+ categories_name[0][category_id].toUpperCase() +"/"+ val.product_name.toUpperCase() +"/"+ val.product_img.toUpperCase() +"'></div><div class='col-21'><p>Home / Jeans</p><h1>"+ val.product_name +"</h1><h3>RM "+ val.product_price.toFixed(2) +"</h3><h4><b>Available Colour :</b></h4><h4>...</h4><h4><b>Size :</b></h4><h4>...</h4><a href='contact.html' class='btn'>Contact Us</a><h4><b>Note:</b></h4><p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p></div></div>";
+        var card2 = "<div class='row'><div class='col-21'><img src='images/"+ categories_name[0][category_id].toUpperCase() +"/"+ val.product_name.toUpperCase() +"/"+ val.product_img.toUpperCase() +"'></div><div class='col-21'><p>Home / Jeans</p><h1>"+ val.product_name +"</h1><h3>RM "+ val.product_price.toFixed(2) +"</h3><h4><b>Available Colour :</b></h4><h4 class='color-"+ val.product_id +"'></h4><h4><b>Size :</b></h4><h4>...</h4><a href='contact.html' class='btn'>Contact Us</a><h4><b>Note:</b></h4><p>The real color of the item may be slightly different from the pictures shown on website caused by many factors.</p></div></div>";
         $("#category-section-" + category_id).append(card2);
 
+      });
+    }).fail(function(){
+      console.log("Failed to retrieve json file.");
+    });
+
+    // color json
+    $.getJSON("json/product-colors.json", function(data){
+      $.each(data, function (key, val) {
+        $(".color-" + val.product_id).append(val.color + ", ");
       });
     }).fail(function(){
       console.log("Failed to retrieve json file.");
